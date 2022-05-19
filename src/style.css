@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 120px;
 }
 
 .header {
@@ -81,6 +82,8 @@
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
 }
 
 .footer {
@@ -117,4 +120,19 @@
     background-color: white;
     margin-left: 10px;
     position: relative;
+}
+
+.position {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.individual-seat {
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    border: 1px solid #808F9D;
+    background-color: #C3CFD9;
+    font-size: 11px;
+    letter-spacing: 4%;
 }
