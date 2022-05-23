@@ -18,7 +18,6 @@ export default function Seats( {setInfoBuyer} ) {
     useEffect(() => {
         const promise = axios.get(`https://mock-api.driven.com.br/api/v5/cineflex/showtimes/${idSessao}/seats`);
         promise.then(res => {
-            console.log(res)
             setInfo(res.data)
         })
 
