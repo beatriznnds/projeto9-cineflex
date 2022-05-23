@@ -1,7 +1,8 @@
-import Header from './Header'
+import Header from './Header';
 import axios from 'axios';
 import {useState, useEffect} from 'react';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import Footer from './Footer';
 
 export default function ChooseMovie () {
     const [movies, setMovies] = useState([]);
@@ -25,7 +26,7 @@ export default function ChooseMovie () {
                             <img src={movie.posterURL} />
                         </Link>
                     ))}
-                </div>                
+                </div>             
             </div>
         </>
     )
