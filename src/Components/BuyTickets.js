@@ -5,12 +5,10 @@ import Footer from './Footer';
 
 export default function BuyTickets ({infoBuyer}) {
 
-    console.log(infoBuyer)
 
      const {name, cpf, seatName, info} = infoBuyer;
      const navigate = useNavigate();
 
-     console.log(seatName)
      let str = "";
      seatName.forEach(element => str += ` ${element} `);
 
